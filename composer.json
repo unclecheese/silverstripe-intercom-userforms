@@ -1,5 +1,5 @@
 {
-    "name": "silverstripe/silverstripe-intercom-userforms",
+    "name": "unclecheese/silverstripe-intercom-userforms",
     "description": "SilverStripe integration with Intercom.io",
     "type": "silverstripe-module",
     "require": {
