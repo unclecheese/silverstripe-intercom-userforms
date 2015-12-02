@@ -1,0 +1,17 @@
+{
+    "name": "silverstripe/silverstripe-intercom-userforms",
+    "description": "SilverStripe integration with Intercom.io",
+    "type": "silverstripe-module",
+    "require": {
+    	"silverstripe/framework": "3.2.*",
+    	"unclecheese/display-logic": "1.3.*",
+    	"sminnee/silverstripe-intercom": "0.*"
+    },
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Aaron Carlino",
+            "email": "aaron@silverstripe.com"
+        }
+    ]
+}
