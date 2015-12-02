@@ -10,3 +10,6 @@ EditableFormField:
 UserDefinedForm:
   extensions:
     - IntercomUserDefinedFormExtension
+UserForm:
+  extensions:
+    - IntercomUserFormExtension
