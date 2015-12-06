@@ -13,15 +13,15 @@ class IntercomEditableFormField extends DataExtension {
 
 
 	public function updateCMSFields(FieldList $fields) {
-		$userFields = Config::inst()->get('Intercom','user_fields');
+		$userFields = Config::inst()->get('Intercom','lead_fields');
 		$companyFields = Config::inst()->get('Intercom','company_fields');
 
 		$fields->addFieldsToTab('Root.Intercom', array(
 			CheckboxField::create('MapToIntercom','Store this field in Intercom'),
 			DisplayLogicWrapper::create(
 				DropdownField::create('IntercomFieldType','Where will this field be stored?', array(
-					'USER' => 'With the user',
-					'COMPANY' => 'With the company',
+					'USER' => 'On the person',
+					'COMPANY' => 'On the company',
 					'NOTE' => 'In notes'
 				))->setEmptyString('--- Please select ---'),
 				DropdownField::create('IntercomUserField','Which user field in Intercom does it map to?')
