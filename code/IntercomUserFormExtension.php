@@ -30,9 +30,9 @@ class IntercomUserFormExtension extends DataExtension {
 
 		}
 		
-		$this->owner->setIntercomUserFieldMapping($userData)
-			 		->setIntercomCompanyFieldMapping($companyData)
-			 		->setIntercomNoteMapping($noteData)
+		$this->owner->addIntercomUserFieldMapping($userData)
+			 		->addIntercomCompanyFieldMapping($companyData)
+			 		->addIntercomNoteMapping($noteData)
 			 		->setIntercomNoteHeader("Submitted on " . date('d-m-Y'));				 		
 	}
 }
