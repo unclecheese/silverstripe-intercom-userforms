@@ -5,8 +5,8 @@
     "require": {
     	"silverstripe/framework": "3.2.*",
     	"unclecheese/display-logic": "1.3.*",
-		"silverstripe/userforms": "^3.0",    	
-    	"sminnee/silverstripe-intercom": "dev-master"
+		"silverstripe/userforms": "^3.0",
+    	"sminnee/silverstripe-intercom": "dev-1.x"
     },
     "license": "BSD-3-Clause",
     "authors": [
