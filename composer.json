@@ -2,6 +2,12 @@
     "name": "unclecheese/silverstripe-intercom-userforms",
     "description": "SilverStripe integration with Intercom.io",
     "type": "silverstripe-module",
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "git@github.com:assertchris/silverstripe-intercom.git"
+		}
+	],
     "require": {
     	"silverstripe/framework": "3.2.*",
     	"unclecheese/display-logic": "1.3.*",
