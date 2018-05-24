@@ -3,7 +3,7 @@ Name: silverstripe-intercom-userforms
 ---
 Form:
   extensions:
-    - 'Sminnee\SilverStripeIntercom\IntercomFormExtension'
+    - 'SilverStripe\Intercom\FormExtension'
 EditableFormField:
   extensions:
     - IntercomEditableFormField

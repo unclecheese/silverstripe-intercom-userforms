@@ -6,7 +6,7 @@
         "silverstripe/framework": "^3.2",
         "unclecheese/display-logic": "1.3.*",
         "silverstripe/userforms": "^3.0",
-        "sminnee/silverstripe-intercom": "^1"
+        "sminnee/silverstripe-intercom": "^2"
     },
     "license": "BSD-3-Clause",
     "authors": [
@@ -14,5 +14,10 @@
             "name": "Uncle Cheese",
             "email": "unclecheese@leftandmain.com"
         }
-    ]
+    ],
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
 }
